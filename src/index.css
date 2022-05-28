@@ -1,0 +1,499 @@
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 150%;
+}
+
+.header {
+  background-color: #F1F3FF;
+}
+
+.footer i {
+  color: #0D28A6;
+  font-size: x-large;
+}
+
+.bg-darkblue {
+  background-color: #0D28A6;
+}
+
+.logo {
+  background-color: #0D28A6;
+  width: 100px;
+  height: 34px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.card-cari {
+  width: 1047px;
+  /* height: 106px; */
+  margin-top: -50px;
+  z-index: 2;
+}
+
+.button-cari {
+  width: 92px !important;
+  margin-top: 30px;
+  height: 36px;
+}
+
+.activeCari {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 34px;
+}
+
+.navbar {
+  padding: 40px 0px;
+  background-color: #F1F3FF;
+}
+
+.navbar .btn {
+  background-color: #5CB85F;
+  color: #fff;
+  border: none;
+  margin-left: 20px;
+  width: 81px;
+  height: 36px;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.navigasi {
+  margin-left: 100px;
+}
+
+.menu {
+  padding-left: 50px;
+  color: black;
+  font-family: Helvetica;
+  font-size: 14px;
+}
+
+.hero {
+  background: #F1F3FF;
+  position: relative;
+  height: 400px;
+  margin-bottom: 50px
+}
+
+.judul {
+  margin: 16px 0;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 150%;
+  margin-left: 100px;
+}
+
+.deskripsi {
+  font-family: Helvetica;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 16px;
+  margin-left: 100px;
+}
+
+.hero .btn {
+  background-color: #5CB85F;
+  border: none;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 100px;
+}
+
+.img-hero {
+  width: 610px;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-left: 230px;
+  z-index: 2;
+}
+
+.bg {
+  position: absolute;
+  width: 660px;
+  margin-top: 110px;
+  margin-left: 230px;
+  z-index: 1;
+}
+
+/* Navbar */
+.navbar {
+  padding-bottom: 1vh;
+  background-color: #F1F3FF;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-kiri {
+  width: 20vw;
+  height: 6vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-kanan {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-item {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+  color: black;
+}
+
+.logo-navbar {
+  width: 6vw;
+  height: 2vw;
+  background: #0D28A6;
+}
+
+.button-register {
+  background-color: #5CB85F;
+  border-radius: 2px;
+  font-weight: bold;
+  width: 81px;
+  height: 37px;
+  border: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1vw;
+}
+
+/* title-content */
+.title-content {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.title-why-us {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  margin-left: 15px;
+}
+
+.title-testi {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.desc-card {
+  margin-top: 10px;
+}
+
+.name-card {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.third-card-item {
+  margin-left: 28px;
+}
+
+.faq-h2 {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+
+/* ------------------------1234555555567 */
+
+
+
+/* Import Font */
+@font-face {
+  font-family: "Helvetica";
+  src: url(./fonts/Helvetica.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Helvetica";
+  src: url(./fonts/Helvetica-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Helvetica Light";
+  src: url(./fonts/4215-font.otf);
+  font-weight: 300;
+}
+
+/* Body */
+p {
+  font-family: "Helvetica Light";
+  font-weight: 300;
+}
+.helvetica400 {
+  font-family: "Helvetica";
+  font-weight: 400;
+}
+.fifth-card-text {
+  padding-left: 22.9vw;
+  padding-right: 22.9vw;
+}
+.container {
+  overflow-x: hidden;
+}
+
+/* Section Main */
+.main {
+  background-color: #f1f3ff;
+  width: 100%;
+  min-height: 266px;
+  padding-top: 37px;
+}
+
+.main-left {
+  margin-top: 90px;
+}
+
+.bgimg {
+  padding-top: 150px;
+}
+
+/* Second Section */
+
+.second-desc {
+  margin-left: auto;
+}
+.second-desc-head {
+  margin-bottom: 24px;
+}
+.second-desc-sub {
+  margin-bottom: 18px;
+}
+.second-desc-item {
+  margin-bottom: 20px;
+}
+.second-desc-item-p {
+  margin-left: 1rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* Third Section */
+
+.third-card-item {
+  width: 265px;
+  height: 196px;
+  border-radius: 8px;
+  margin-top: 40px;
+  margin-right: auto;
+}
+.third-card-title {
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0px !important;
+}
+
+/* Fourth Section */
+.fourth-sub {
+  margin-bottom: 40px !important;
+}
+.fourth-carousel-padding {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.holder {
+  border: 0.5px solid #c4c4c4 !important;
+  border-radius: 60px;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+.holder:hover {
+  background-color: green;
+}
+.arrow-carousel {
+  width: 7px;
+  height: 12px;
+}
+.holder:hover > .arrow-carousel {
+  filter: invert(100%) sepia(4%) saturate(16%) hue-rotate(112deg)
+    brightness(107%) contrast(104%);
+}
+/* Carousel */
+.carousel,
+.carousel-innr,
+.carousel-inner > .carousel-item {
+  overflow: hidden;
+}
+.carousel-inner > .carousel-item.active,
+.carousel-inner > .carousel-item-next,
+.carousel-item-prev {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.carousel-item.active {
+  align-content: center;
+}
+.carousel-inner:before {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  right: 100%;
+  left: 0;
+  content: "";
+  display: block;
+  background-color: #fff;
+}
+.carousel-inner:after {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 100%;
+  content: "";
+  display: block;
+  background-color: #fff;
+}
+
+.card-custom {
+  width: 620px;
+  height: 270px;
+  background-color: #f1f3ff;
+}
+.testi-content {
+  text-align: left !important;
+}
+
+/* Section Fourth */
+.fourth-carousel-button {
+  border: none;
+  background-color: #fff;
+}
+
+/* Section Fifth */
+
+.fifth-card-content {
+  background-color: #0d28a6;
+  color: white;
+  height: 326px;
+  border-radius: 13px !important;
+}
+.fifth-card-title {
+  margin-top: 48px;
+  font-weight: 700;
+}
+.fifth-card-text {
+  margin-top: 16px;
+  font-weight: 300;
+  margin-bottom: 0px;
+}
+.fifth-btn {
+  margin-top: 52px;
+}
+
+/* Section Sixth */
+
+.sixth-faq-title {
+  margin-right: 132px;
+}
+.accordion-button {
+  border: 1px solid #d4d4d4;
+  border-radius: 4px !important;
+}
+
+/* W3school Sidebar */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 34px;
+}
+.incativeSideBG {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 34px;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  height: 0px;
+  margin-top: -15px !important;
+}
